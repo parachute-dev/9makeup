@@ -1,0 +1,18 @@
+.newsletter-block{
+    padding:2em 0;
+    .is-flex{
+        align-items: center;
+    }
+    h2{
+        padding:0;
+        font-style:italic;
+
+    }
+    form{
+        display:flex;
+        input,button{
+            flex:1;
+            margin:5px;
+        }
+    }
+}

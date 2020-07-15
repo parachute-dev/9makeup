@@ -1,0 +1,38 @@
+
+
+.button, .action.create, button{
+  background:white;
+  color:black;
+  font-weight: 500;
+  padding:17px 40px;
+  border:1px solid black;
+  text-transform:uppercase;
+  letter-spacing: 0.05em;
+  font-size:15px;
+  display:inline-block;
+  font-weight:bold;
+
+  letter-spacing:2px;
+  font-family:$font-body;
+  &.button-black{
+    background:black;
+    color:white;
+  }
+  &.white-outline{
+    background:white;
+
+    color:black;
+  }
+
+}
+
+button.action{
+  border:0;
+
+  text-transform:uppercase;
+  font-weight:800;
+  background:black;
+  outline:0;
+  color:white;
+
+}

@@ -1,0 +1,167 @@
+.banner-carousel{
+    position:relative;
+    .container{
+        display:flex;
+        align-items:center;
+        justify-content: flex-end;
+        padding-left:0;
+        padding-right:0;
+           @media (max-width: $screen-sm-max) {
+display:block;
+           }
+    }
+    .image{
+        position:absolute;
+        left:0;
+        width:100%;
+        height:100%;
+        top:0;
+             @media (max-width: $screen-sm-max) {
+height:220px;
+position:static;
+             }
+    }
+
+    .content{ 
+        position:relative;
+        width:38%;
+        @media (max-width: $screen-sm-max) {
+            width:100%;
+           
+            padding-top:40px;
+        }
+        a.button{
+            margin:20px 0;
+            border:0;
+            padding:15px 60px;
+        }
+
+        &.background-white{
+           background:white;
+           h1,h2,.button, button{
+            color:black;
+        }
+    }
+}
+.container-height-medium{
+    min-height:45vh;
+}
+.container-height-small{
+    min-height:30vh;
+}
+.container-height-large{
+    min-height:60vh;
+}
+   @media (max-width: $screen-sm-max) {
+    .container{
+        min-height:auto;
+
+    }
+
+    }
+.two-thirds{
+    .image{
+        width:75%;
+    }
+    .container{
+       .content{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        height:100%;
+        display:flex;
+        padding:50px;
+        width:40%;
+    }
+}
+
+
+}
+.background-color-black{
+    .content{
+        padding:2em;
+    background:colours(brand,black);
+    color:black;
+ 
+      h1,h2,p,li{
+        color:white;
+    }
+    .button{
+        background:white;
+        color:black;
+
+    }
+
+}
+}
+
+.background-color-white{
+    .content{
+    background:white;
+    color:black;
+    padding:2em;
+    h1,h2,p,li{
+        color:black;
+    }
+    .button{
+        background:black;
+        color:white;
+
+    }
+}
+}
+.content-width-full .content{
+    width:100%;
+
+}
+
+.content-width-third .content{
+    width:33%;
+
+}
+.content-width-sixty .content{
+    width:60%;
+
+}
+
+.content-width-half .content{
+    width:50%;
+
+}
+
+ 
+.horizontal-start{
+justify-content:flex-start;
+}
+
+.horizontal-center{
+justify-content:center;
+}
+
+.horizontal-center{
+justify-content:center;
+}
+
+.vertical-start{
+align-items:flex-start;
+margin-bottom:2em;
+}
+
+.vertical-center{
+align-items:center;
+}
+
+.vertical-end{
+align-items:flex-end;
+margin-bottom:2em;
+}
+
+}
+
+
+.owl-initialized{
+    display:none!important;
+}
+.owl-loaded{
+    display:block!important;
+}

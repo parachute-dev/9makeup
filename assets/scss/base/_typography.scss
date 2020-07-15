@@ -1,0 +1,189 @@
+@import url("https://use.typekit.net/ube7qnp.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    font-size: 15px;
+    line-height: 1;
+    font-family:$font-body, "arial", "helvetica", "san-serif";
+}
+
+
+h1, .h1 {
+
+    font-family: $font-body_light;
+    @include font-size(42px);
+    @include remify(padding-bottom, 15px);
+    line-height: 0.9;
+    font-weight: normal;
+
+    letter-spacing: 0;
+    @media (min-width: $screen-md-min) {
+        @include font-size(68px);
+
+    }
+}
+
+h2, .h2 {
+    font-family: $font-body_light;
+
+    @include font-size(46px);
+    @include remify(padding-bottom, 15px);
+    line-height: 1;
+    @media (min-width: $screen-sm-min) {
+
+    }
+
+    @media (min-width: $screen-md-min) {
+
+    }
+
+    @media (min-width: $screen-lg-min) {
+
+    }
+}
+
+h3, .h3 {
+    font-family: $font-body_light;
+
+    @include font-size(36px);
+    padding-bottom:15px;
+
+    line-height: 1;
+    @media (min-width: $screen-sm-min) {
+
+    }
+
+    @media (min-width: $screen-md-min) {
+
+    }
+
+    @media (min-width: $screen-lg-min) {
+
+    }
+}
+
+h4, .h4 {
+
+
+    @include font-size(24px);
+    letter-spacing:1px;
+    text-transform:uppercase;
+    @include remify(padding-bottom, 10px);
+
+
+    @media (min-width: $screen-sm-min) {
+
+    }
+
+    @media (min-width: $screen-md-min) {
+
+    }
+
+    @media (min-width: $screen-lg-min) {
+
+    }
+}
+
+h5, .h5 {
+
+    font-family: $font-body;
+
+letter-spacing:1px;
+    @include font-size(16px);
+    text-transform:uppercase; 
+
+    line-height: 1; 
+
+ @media (min-width: $screen-sm-min) {
+
+ } 
+
+ @media (min-width: $screen-md-min) {
+
+ }
+
+ @media (min-width: $screen-lg-min) {
+
+ }
+}
+
+h6, .h6 {
+    font-family: $font-heading;
+
+    @include font-size(16px);
+
+    line-height: 1;
+    @media (min-width: $screen-sm-min) {
+
+    }
+
+    @media (min-width: $screen-md-min) {
+
+    }
+
+    @media (min-width: $screen-lg-min) {
+
+    }
+
+
+}
+
+p {
+letter-spacing:1px;
+  font-family:$font-body;
+  padding-bottom:15px;
+  font-size:16px;
+  line-height:1.4;
+
+}
+
+table {
+    h2, h3, h4, h5, h6 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.user-content{
+    ul, ol{
+        margin:15px 0;
+        display:inline-block;
+        width:100%;
+        li{
+            font-size:16px;
+            position:relative;
+            padding-left:65px;
+            padding-bottom:20px; 
+            &:before{
+             background-image:url("/assets/img/dash.png");
+             position:absolute;
+             left:0;
+             top:10px; 
+             width:100px;
+             height:10px; 
+             background-repeat:no-repeat;
+             background-size:contain;
+             content:"";
+         }
+     }
+ }
+ p{
+    padding-bottom:15px;
+}
+h1,h2,h3{
+    font-family:$font-body;
+    padding:10px 0;
+}
+}

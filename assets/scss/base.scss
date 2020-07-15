@@ -1,0 +1,55 @@
+// Setup fonts, vars, functions, mixins, resets and base styles
+@import "base/vars";
+@import "base/reset";
+@import "vendor/bootstrap/bootstrap"; 
+@import "helper/functions";  
+@import "helper/mixins"; 
+@import "base/typography"; 
+@import "helper/helpers";
+
+// Navigation
+@import "layout/toolbar";  
+@import "layout/footer";   
+
+
+// Navigation
+@import "components/buttons";  
+@import "components/forms";   
+
+
+
+// Grid Blocks
+@import "grid/banner";
+@import "grid/contact-us-block";
+@import "grid/faqs";
+@import "grid/media-text";
+@import "grid/newsletter";
+@import "grid/social";
+@import "grid/subnav";
+@import "grid/video";
+@import "grid/category-callout";
+@import "grid/vieve-muse";
+
+// Pages
+@import "pages/account";
+@import "pages/blog";
+@import "pages/category";
+@import "pages/page";  
+@import "pages/product"; 
+@import "pages/minicart"; 
+
+@import "pages/cart"; 
+@import "pages/checkout";
+
+ 
+// Animations
+@import "helper/animations";
+
+// Plugins 
+@import "vendor/slick";
+
+
+// Magento Tidy
+.modals-wrapper, .page-header .panel.header, .block-search{
+    display:none;
+} 
