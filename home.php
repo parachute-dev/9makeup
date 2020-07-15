@@ -20,10 +20,10 @@ get_header();
 						<div class="image" style="background-image:url('<?php bloginfo('template_url');?>/assets/img/banner.png')">
 						</div> 
 						<div class="content">
-								<div class="col-xs-12">
-							<h1 >Sale Now On</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="#" class="button">Shop Now</a>  
+							<div class="col-xs-12">
+								<h1 >Sale Now On</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="#" class="button">Shop Now</a>  
 							</div>           
 						</div>
 					</div>
@@ -98,11 +98,11 @@ get_header();
 						<div class="image" style="background-image:url('<?php bloginfo('template_url');?>/assets/img/banner-2.png')">
 						</div> 
 						<div class="content">
-								<div class="col-xs-12">
-							<h2 class="h2">New Arrivals</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="#" class="button">Shop Now</a>
-						</div>
+							<div class="col-xs-12">
+								<h2 class="h2">New Arrivals</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="#" class="button">Shop Now</a>
+							</div>
 
 						</div>
 					</div>
@@ -110,6 +110,24 @@ get_header();
 			</div>
 		</div>
 	</div>
+</div>
+
+
+<div class="category-callout-block content-block content-block-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<header class="content-header text-align-left">
+					<h3>Most Popular</h3>
+				</header>
+			</div>
+		</div>
+		<div class="row">
+			<div class="callout-carousel">
+				<?php echo do_shortcode('[best_selling_products limit="4"]');?>
+		</div>
+	</div>
+</div>
 </div>
 
 <div class="banner-block content-block background-colour-black">
@@ -122,9 +140,9 @@ get_header();
 						</div> 
 						<div class="content">
 							<div class="col-xs-12">
-							<h2 >About 9Makeup</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-							<a href="#" class="button">Discover</a>  
+								<h2 >About 9Makeup</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<a href="#" class="button">Discover</a>  
 							</div>           
 						</div>
 					</div>

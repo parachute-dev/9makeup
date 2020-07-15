@@ -1,0 +1,43 @@
+{
+    "key": "group_5d0a53ed0ce5d",
+    "title": "Option Shortcode Instagram",
+    "fields": [
+        {
+            "key": "field_5d0a53fdcbebf",
+            "label": "Shortcode Instagram Feed",
+            "name": "shortcode_instagram_feed",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1560957979
+}
