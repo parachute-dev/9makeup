@@ -23,7 +23,7 @@ get_header();
 							<div class="col-xs-12">
 								<h1 >Sale Now On</h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								<a href="#" class="button">Shop Now</a>  
+								<a href="/shop" class="button">Shop Now</a>  
 							</div>           
 						</div>
 					</div>
@@ -47,7 +47,7 @@ get_header();
 			<div class="callout-carousel">
 				<div class="col-md-4">
 					<div class="category-callout">
-						<a href="">
+						<a href="/product-category/face/">
 							<div class="image" style="background-image:url('<?php bloginfo('template_url');?>/assets/img/product-1.png')">
 							</div>
 							<div class="content">
@@ -59,7 +59,7 @@ get_header();
 				</div>
 				<div class="col-md-4">
 					<div class="category-callout">
-						<a href="">
+						<a href="/product-category/eyes/">
 							<div class="image" style="background-image:url('<?php bloginfo('template_url');?>/assets/img/product-2.png')">
 							</div>
 							<div class="content">
@@ -73,7 +73,7 @@ get_header();
 				</div>
 				<div class="col-md-4">
 					<div class="category-callout">
-						<a href="">
+						<a href="/product-category/lips/">
 							<div class="image" style="background-image:url('<?php bloginfo('template_url');?>/assets/img/product-3.png')">
 							</div>
 							<div class="content">
@@ -101,7 +101,7 @@ get_header();
 							<div class="col-xs-12">
 								<h2 class="h2">New Arrivals</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								<a href="#" class="button">Shop Now</a>
+								<a href="/shop" class="button">Shop Now</a>
 							</div>
 
 						</div>
@@ -123,8 +123,10 @@ get_header();
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-12">
 			<div class="callout-carousel">
 				<?php echo do_shortcode('[best_selling_products limit="4"]');?>
+				</div>
 		</div>
 	</div>
 </div>

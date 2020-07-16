@@ -1,20 +1,59 @@
+
+.tax-product_cat, .post-type-archive-product{
+.page-title{
+text-align:center;
+padding:1em 0;
+border-bottom:1px solid #ccc;
+margin-bottom:2em;
+}
+}
 .woocommerce{
-ul.products{
-li.product{
+	ul.products{
+		li.product{
 
-	a{
-			color:inherit;	
+			a{
+					color:#737373;
+			}
+			.woocommerce-loop-product__title{
+				font-family:$font-body_bold;
+				text-transform:uppercase;
+				color:inherit;
+				font-size:17px;
+				line-height:1.2;
+				letter-spacing:0.5px;
+	
+				a{
+					color:#737373;
+
+				} 
+			}
+
+	
+		}
 	}
-.woocommerce-loop-product__title{
-	font-family:$font-body_bold;
-	text-transform:uppercase;
-	color:inherit;
-		font-size:17px;
-	a{
-		color:inherit;
+	.price{
 
 	}
 }
-}
-}
-}
+
+		.price{
+
+				color:black;
+			
+					color:inherit;
+				font-family:$font-body_bold;
+				font-weight:normal;
+				font-size:15px;
+				span{
+					font-weight:400;
+				}
+
+				del{
+color:#333;
+				}
+				ins{
+					color:red;
+					text-decoration:none;
+				}
+		
+			}

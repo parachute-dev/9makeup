@@ -24,6 +24,10 @@ input, select, textarea{
 
 
 }
+input[type=checkbox], input[type=radio]{
+  width:auto;
+  margin-bottom:0;
+}
 textarea{
   height:120px;
 }

@@ -1,19 +1,25 @@
 
 
-.button, .action.create, button{
-  background:white;
+.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+ {
+  background: rgb(232,217,152);
+background: linear-gradient(270deg, rgba(232,217,152,1) 0%, rgba(173,137,62,1) 100%);
+color:white;
+
+
+
   color:black;
   font-weight: 500;
   padding:17px 40px;
-  border:1px solid black;
+border-radius:0;
   text-transform:uppercase;
   letter-spacing: 0.05em;
   font-size:15px;
   display:inline-block;
-  font-weight:bold;
+
 
   letter-spacing:2px;
-  font-family:$font-body;
+  font-family:$font-heading;
   &.button-black{
     background:black;
     color:white;
@@ -22,17 +28,11 @@
     background:white;
 
     color:black;
-  }
+  } 
+
+
 
 }
 
-button.action{
-  border:0;
 
-  text-transform:uppercase;
-  font-weight:800;
-  background:black;
-  outline:0;
-  color:white;
-
-}
+ 
