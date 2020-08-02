@@ -6,9 +6,9 @@
 				<header>
 					<h3>Instagram Feed</h3>
 					<ul class="social-media">
-						<li><a href="" class="fa fa-instagram"></a></li>
-						<li><a href="" class="fa fa-facebook"></a></li>
-						<li><a href="" class="fa fa-twitter"></a></li>
+						<li><a href="https://www.instagram.com/9makeup/" target="_blank" class="fa fa-instagram"></a></li>
+						<li><a href="https://www.facebook.com/9makeup/" target="_blank" class="fa fa-facebook"></a></li>
+						<li><a href="https://twitter.com/9makeup" target="_blank" class="fa fa-twitter"></a></li>
 					</ul>
 				</header>
 			</div>
@@ -101,11 +101,6 @@ jQuery(document).ready(function($) {
 	});
 
 </script>
-
-
-
-
-
 
 </body>
 </html>

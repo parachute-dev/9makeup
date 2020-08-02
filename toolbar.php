@@ -35,9 +35,15 @@
 					<nav>
 						<ul>
 							<li class="" id="search"><a href=""><i class="fa fa-search"></i></a></li>
-							<li class="hidden-sm hidden-xs"><a href="/customer/account/wishlist"><i class="fa fa-heart-o"></i></a></li>
-							<li class="hidden-sm hidden-xs"><a href="/customer/account/"><i class="fa fa-user"></i></a></li>
+							<li class="hidden-sm hidden-xs"><a href="/wishlist"><i class="fa fa-heart-o"></i></a></li>
+							<li class="hidden-sm hidden-xs"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>"><i class="fa fa-user"></i></a></li>
 							<li class="" id="shopping-basket"><a href="/checkout/cart"><i class="fa fa-shopping-basket"></i></a>
+								<div class="mini-cart">
+									<?php 
+									global $woocommerce;
+									echo $woocommerce->cart->cart_contents_count;
+									?>
+								</div> 
 							</li>
 						</ul>
 					</nav>
