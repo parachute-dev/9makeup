@@ -55,7 +55,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h5>Get Free Shipping Today</h5>
+					<h5>Free COVID secure delivery to your door within 48 hours!</h5>
 				</div>
 			</div>
 		</div>

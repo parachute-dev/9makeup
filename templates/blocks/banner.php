@@ -24,17 +24,12 @@ $height = get_field('height');
                     $title = get_sub_field('title');
                     $video_background = get_sub_field('video_background');
                     $logo = get_sub_field('logo');
-
-
                     $colour = get_sub_field('background_colour'); 
-$vertical_positioning = get_sub_field('vertical_positioning'); 
-$horizontal_positioning = get_sub_field('horizontal_positioning'); 
-$padding = get_sub_field('padding'); 
-$margin = get_sub_field('margin'); 
-$height = get_sub_field('height'); 
-
-
-
+                    $vertical_positioning = get_sub_field('vertical_positioning'); 
+                    $horizontal_positioning = get_sub_field('horizontal_positioning'); 
+                    $padding = get_sub_field('padding'); 
+                    $margin = get_sub_field('margin'); 
+                    $height = get_sub_field('height'); 
                     ?>
                     <div class="banner">
                         <div class="container background-colour-<?php echo $colour; ?> text-align-center container-height-<?php echo get_sub_field('height');?> vertical-<?php echo get_sub_field('vertical_positioning');?> horizontal-<?php echo get_sub_field('horizontal_positioning');?>">
@@ -50,7 +45,7 @@ $height = get_sub_field('height');
                             <?php } ?>
                             <div class="content">
                                 <div class="col-xs-12">
-                                 <?php if ($sub_title) { ?>
+                                   <?php if ($sub_title) { ?>
                                     <h5><?php echo $sub_title; ?></h5>
                                 <?php }?>
                                 <?php if ($title) { ?>

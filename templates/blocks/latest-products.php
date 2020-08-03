@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <header class="content-header text-align-left">
-                    <h3>Most Popular</h3>
+                    <h3>Trending</h3>
                 </header>
             </div>
         </div>
