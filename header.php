@@ -21,7 +21,12 @@ max-width:1280px;
 padding-bottom:100px;
 }
 
-
+.horizontal-end{
+	text-align:right;
+}
+.horizontal-start{
+	text-align:left;
+}
 </style>
 	<?php wp_enqueue_script("jquery"); ?>
 	<?php wp_head(); ?>
