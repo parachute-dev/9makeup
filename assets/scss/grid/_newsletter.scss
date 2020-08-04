@@ -1,12 +1,24 @@
 .newsletter-block{
     padding:2em 0;
+    background:black;
+    color:white;
+    border-top:1px solid white;
+    float:left;
+    clear:both;
     .is-flex{
         align-items: center;
     }
     h2{
         padding:0;
-        font-style:italic;
+        text-transform:uppercase;
+        font-size:24px;
+        font-family:$font-heading;
+        
 
+    }
+    button{
+        background:linear-gradient(270deg, #e8d998 0%, #ad893e 100%)!important;
+        color:black!important;
     }
     form{
         display:flex;
@@ -15,4 +27,13 @@
             margin:5px;
         }
     }
-}
+    ._form-content{
+        display:flex;
+        width:100%;
+    }
+    ._form-thank-you{
+        width:100%;
+        text-align:center;font-size:20px;
+        text-transform:uppercase;
+    }
+} 

@@ -56,12 +56,54 @@
 			</div> 
 		</div>
 	</div>
-	<div class="top-message">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h5>COVID secure delivery to your door within 48 hours!</h5>
+<div id="trust-bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="trust-mark">
+					<div class="center">
+						<a href="">
+							<div class="image">					
+								<i class="fa fa-truck"></i>
+							</div>
+							<div class="content">
+
+	<h6>COVID SECURE DELIVERY</h6>
+								<p> To your door within 48 hours!
+</p>
+							</div>
+						</a>
+					</div>
 				</div>
+				<div class="trust-mark">
+					<div class="center">
+						<a href="">
+							<div class="image">					
+								<i class="fa fa-envelope"></i>
+							</div>
+							<div class="content">
+
+								<h6>Return Policy</h6>
+								<p>Free returns</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="trust-mark">
+					<div class="center">
+						<a href="">
+							<div class="image">					
+								<i class="fa fa-question"></i>
+							</div>
+							<div class="content">
+
+								<h6>Need help?</h6>
+								<p>Contact a member of the team</p>
+							</div>
+						</a>
+					</div>
+				</div>								
 			</div>
 		</div>
 	</div>
+</div>
