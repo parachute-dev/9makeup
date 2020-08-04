@@ -83,6 +83,11 @@ jQuery(document).ready(function($) {
 		);
 
 	jQuery(document).ready(function () { 
+
+
+		jQuery("#search i.fa").click(function(event) {
+			jQuery(".search-container").slideToggle();
+		});
 		jQuery.ajax({
 			url: 'https://www.instagram.com/9makeup/?__a=1', 
 			dataType: 'json',
