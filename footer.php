@@ -40,12 +40,12 @@
 						<button class="button button-black _submit" id="_form_1_submit" type="submit">Signup</button>
 					</div>
 
-<div class="_form-thank-you" style="display:none;">
+					<div class="_form-thank-you" style="display:none;">
 
-				</div>
+					</div>
 				</form>
 
-				
+
 			</div>
 		</div>
 	</div>
@@ -58,14 +58,14 @@
 	window.cfields = [];
 	window._show_thank_you = function(id, message, trackcmp_url, email) {
 		var form = document.getElementById('_form_1_'), thank_you = form.querySelector('._form-thank-you');
-  form.querySelector('._form-content').style.display = 'none';
- thank_you.innerHTML = message;
- thank_you.style.display = 'block';
- var visitorObject = window[visitorGlobalObjectAlias];
- if (email && typeof visitorObject !== 'undefined') {
- 	visitorObject('setEmail', email);
- 	visitorObject('update');
- } else if (typeof(trackcmp_url) != 'undefined' && trackcmp_url) {
+		form.querySelector('._form-content').style.display = 'none';
+		thank_you.innerHTML = message;
+		thank_you.style.display = 'block';
+		var visitorObject = window[visitorGlobalObjectAlias];
+		if (email && typeof visitorObject !== 'undefined') {
+			visitorObject('setEmail', email);
+			visitorObject('update');
+		} else if (typeof(trackcmp_url) != 'undefined' && trackcmp_url) {
     // Site tracking URL to use after inline form submission.
     _load_script(trackcmp_url);
 }
@@ -418,18 +418,57 @@ addEvent(form_to_submit, 'submit', form_submit);
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.13/mmenu.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.13/mmenu.min.js"></script>
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
 
 	jQuery(document).ready(function($) {
-		
+
 		jQuery(".content-accordian .content-accordian-header").click(function(event) {
 			jQuery(this).next(".content").slideToggle(); 
 		});
 
 	});
+
+	jQuery(".trust-mark-container").slick(
+{
+  dots: false,
+  infinite: true,
+  speed: 300,
+  arrows:false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+    autoplay: true,
+  autoplaySpeed: 1500,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: { 
+        slidesToShow: 1,
+        slidesToScroll: 1,
+
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow:1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+}
+		);
 
 	document.addEventListener(
 		"DOMContentLoaded", () => {
@@ -441,7 +480,7 @@ addEvent(form_to_submit, 'submit', form_submit);
 				}
 			});
 
-			
+
 		}
 		);
 

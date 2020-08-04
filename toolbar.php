@@ -59,7 +59,7 @@
 <div id="trust-bar">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 trust-mark-container">
 				<div class="trust-mark">
 					<div class="center">
 						<a href="">
