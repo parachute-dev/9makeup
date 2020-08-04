@@ -62,6 +62,9 @@
 
 jQuery(document).ready(function($) {
 	
+	jQuery(".content-accordian .content-accordian-header").click(function(event) {
+		jQuery(this).next(".content").slideToggle(); 
+	});
 
 });
 
