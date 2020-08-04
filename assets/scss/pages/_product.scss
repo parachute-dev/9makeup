@@ -189,6 +189,13 @@ body.woocommerce div.product p.price{
 	.content{
 		padding:20px 0;
 		display:none;
+
+		li{
+	list-style:initial;
+margin-left:20px;
+}
+
+
 	}
 }
 
@@ -294,18 +301,17 @@ body.woocommerce ul.products li.product .button{
 	margin-bottom:80px!important;
 }
 
-.woocommerce span.onsale{
+content.woocommerce .onsale, html .woocommerce .onsale, .woocommerce ul.products li.product .onsale, html .woocommerce span.onsale{
 	background:black;
 	border-radius:0;
 	line-height:initial;
 	height:initial;
-	padding:5px 20px;
+	padding:5px 20px; 
 	min-height:initial;
 	text-transform:uppercase;
 	font-weight:normal;
 	font-family:"ITC Avant Garde Gothic W01 Dm";
 }
-
 
 .woovr-variation .available-on-backorder, .woovr-variation .in-stock{
 display:none
@@ -332,4 +338,21 @@ text-transform:uppercaes;
 }
 .woovr-variation {
 position:relative;
+}
 
+.woocommerce ul.products li.product .price{
+	font-size:18px!important;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+font-size:17px!important;
+}
+
+.woocommerce-cart table.cart th{
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+.content li{
+	list-style:initial;
+}

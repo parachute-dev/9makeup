@@ -16,7 +16,7 @@
 	
 	.woocommerce-page .woocommerce, .woocommerce-account .woocommerce, #yith-wcwl-form, .page-id-1249 .woocommerce{
 margin:0 auto;
-padding-top:100px;
+padding-top:30px;
 max-width:1280px;
 padding-bottom:100px;
 }
