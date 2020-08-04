@@ -87,6 +87,7 @@ td{
 	width:100%;
 	h2{
 		font-size:32px;
+		margin-bottom:20px;
 	}
 }
 
@@ -288,4 +289,16 @@ padding-right:0;
 
 .woocommerce div.product div.images{
 margin-bottom:80px!important;
+}
+
+.woocommerce span.onsale{
+background:black;
+border-radius:0;
+line-height:initial;
+height:initial;
+padding:5px 20px;
+min-height:initial;
+text-transform:uppercase;
+font-weight:normal;
+font-family:"ITC Avant Garde Gothic W01 Dm";
 }

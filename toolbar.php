@@ -34,7 +34,12 @@
 				<div class="col-md-3 my-account col-xs-3"> 
 					<nav>
 						<ul>
-							<li class="" id="search"><a href=""><i class="fa fa-search"></i></a></li>
+							<li class="" id="search"><a href=""><i class="fa fa-search"></i></a>
+								<div class="search-container">
+								<?php echo do_shortcode('[woocommerce_product_search]'); ?>
+								</div>
+							</li>
+							.
 							<li class="hidden-sm hidden-xs"><a href="/wishlist"><i class="fa fa-heart-o"></i></a></li>
 							<li class="hidden-sm hidden-xs"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>"><i class="fa fa-user"></i></a></li>
 							<li class="" id="shopping-basket"><a href="/checkout/cart"><i class="fa fa-shopping-basket"></i></a>
