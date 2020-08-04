@@ -38,7 +38,7 @@ $margin = get_field('margin');
           
 
                  if ($link){
-                    $link_url == $link['url'];
+                    $link_url = $link['url'];
                  }
 
                  ?>
