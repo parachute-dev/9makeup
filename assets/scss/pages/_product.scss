@@ -305,3 +305,31 @@ body.woocommerce ul.products li.product .button{
 	font-weight:normal;
 	font-family:"ITC Avant Garde Gothic W01 Dm";
 }
+
+
+.woovr-variation .available-on-backorder, .woovr-variation .in-stock{
+display:none
+}
+.woovr-variation-availability{
+position:absolute;
+top:0;
+right:0;
+background:red;
+width:auto;
+display:block!important;
+color:white!important;
+opacity:0.7;
+}
+
+.woovr-variation-availability p{
+font-size:11px!important;
+padding:3px;
+
+text-transform:uppercase;
+color:white!important;
+line-height:1;
+text-transform:uppercaes;
+}
+.woovr-variation {
+position:relative;
+

@@ -33,20 +33,20 @@ echo $short_description;
 		<i class="fa fa-chevron-down"></i>
 	</header>
 	<div class="content">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, enim porro quas iusto, error quasi aliquam autem, eius similique officia est fugit exercitationem tenetur mollitia. Recusandae repellendus doloribus, a harum.
+		<?php the_content(); ?>
 	</div>
 </div>
 
 <div class="share-options">
 	<header class="content-accordian-header">
 		<span>
-		Share This Product
-</span>
-			<ul>
-		<li><i class="fa fa-facebook"></i></li>
-		<li><i class="fa fa-pinterest"></i></li>
-		<li><i class="fa fa-twitter"></i></li>
-	</ul>
+			Share This Product
+		</span>
+		<ul>
+			<li><i class="fa fa-facebook"></i></li>
+			<li><i class="fa fa-pinterest"></i></li>
+			<li><i class="fa fa-twitter"></i></li>
+		</ul>
 
 	</header>
 
@@ -59,14 +59,14 @@ echo $short_description;
 
 	<?php if ( wc_product_sku_enabled() && ( $product->get_sku() || $product->is_type( 'variable' ) ) ) : ?>
 
-		<span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
+	<span class="sku_wrapper"><?php esc_html_e( 'SKU:', 'woocommerce' ); ?> <span class="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : esc_html__( 'N/A', 'woocommerce' ); ?></span></span>
 
-	<?php endif; ?>
+<?php endif; ?>
 
-	<?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', count( $product->get_category_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
+<?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', count( $product->get_category_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 
-	<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
+<?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?>
 
-	<?php do_action( 'woocommerce_product_meta_end' ); ?>
+<?php do_action( 'woocommerce_product_meta_end' ); ?>
 
 </div>
