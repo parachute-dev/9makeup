@@ -50,3 +50,13 @@ html .woocommerce .cart-collaterals .cart_totals,  html.woocommerce-page .cart-c
 #order_review_heading{
 	margin-top:20px;
 }
+
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+	min-width:260px;
+
+padding:10px;
+}
+
+.coupon{
+display:flex;
+}
