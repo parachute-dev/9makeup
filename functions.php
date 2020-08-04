@@ -128,3 +128,6 @@ function woocommerce_quantity_input( $args = array(), $product = null, $echo = t
    }
   
 }
+
+
+register_sidebars( 1, array( 'name' => 'shop' ) );

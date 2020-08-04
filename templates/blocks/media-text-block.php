@@ -28,7 +28,7 @@ $logo = get_field('logo');
             <div class="col-md-6 content-container first ">
                 <div class="content">
                     <header class="content-header content-header-underline">
-                        <h3><?php echo $title; ?></h3>
+                        <h2><?php echo $title; ?></h2>
                     </header>
                     <div class="user-content">
                         <?php the_field('content'); ?>

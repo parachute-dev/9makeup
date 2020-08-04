@@ -48,7 +48,11 @@ if ( $product->is_in_stock() ) : ?>
 		?>
 
 		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+		<div class="wishlist"> 
+			<a href="?add_to_wishlist=<?php echo $product->ID; ?>" class="fa fa-heart"></a>
+		</div>
 	</div>
+
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>

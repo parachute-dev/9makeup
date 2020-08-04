@@ -27,6 +27,21 @@ padding-bottom:100px;
 .horizontal-start{
 	text-align:left;
 }
+
+.horizontal-end .content-header{
+text-align:right;
+
+}
+
+.horizontal-start .content-header{
+text-align:left
+
+}
+
+.media-text-block .content{
+padding:5em 0;
+}
+
 </style>
 	<?php wp_enqueue_script("jquery"); ?>
 	<?php wp_head(); ?>

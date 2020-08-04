@@ -20,7 +20,7 @@
 	.woocommerce-variation-price{	.price{
 
 		width:100%;
-	}
+	} 
 	span{
 		font-size:18px;
 	} 
@@ -355,4 +355,20 @@ font-size:17px!important;
 
 .content li{
 	list-style:initial;
+}
+
+.entry-summary .wishlist{
+color:black;
+}
+.entry-summary .wishlist a{
+color:black;
+font-size:2.2em;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:9px 20px;
+}
+
+.post-type-archive-product .page-title, .tax-product_brand .page-title, .tax-product_cat .page-title{
+	margin-bottom:15px;
 }
