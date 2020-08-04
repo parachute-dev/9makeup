@@ -45,7 +45,7 @@ echo $short_description;
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' ); ?>
 		<ul>
 			<li><a target="_blank" style="color:inherit;" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><i class="fa fa-facebook"></i></a></li>
-			<li><a target="_blank" style="color:inherit;" href="https://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php echo $image[0]; ?>&description=<?php the_content(); ?>"><i class="fa fa-pinterest"></i></a></li>
+			<li><a target="_blank" style="color:inherit;" href="https://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php echo $image[0]; ?>&description=<?php echo get_the_excerpt(); ?>"><i class="fa fa-pinterest"></i></a></li>
 			<li><a target="_blank" style="color:inherit;" href="https://twitter.com/home?status=<?php the_permalink(); ?>"><i class="fa fa-twitter"></i></a></li>
 		</ul>
 	</header>
