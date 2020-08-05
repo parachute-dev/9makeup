@@ -101,7 +101,17 @@ function my_acf_init() {
             'keywords'          => array( 'Latest Products' ),
         )); 
     }
-
+  if( function_exists('acf_register_block') ) {
+        acf_register_block(array(
+            'name'              => 'text-block',
+            'title'             => __('Text Block'),
+            'description'       => __('Text Block'),
+            'render_template'   => '/templates/blocks/text-block.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'Text Block' ),
+        )); 
+    }
     if( function_exists('acf_register_block') ) {
         acf_register_block(array(
             'name'              => 'media-text-block',

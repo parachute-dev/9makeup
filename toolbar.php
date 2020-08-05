@@ -91,7 +91,7 @@
 				</div>
 				<div class="trust-mark">
 					<div class="center">
-						<a href="/customer-service">
+						<a href="/customer-service/contact">
 							<div class="image">					
 								<i class="fa fa-question"></i>
 							</div>
