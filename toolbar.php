@@ -62,7 +62,7 @@
 			<div class="col-md-12 trust-mark-container">
 				<div class="trust-mark">
 					<div class="center">
-						<a href="">
+						<a href="/customer-service">
 							<div class="image">					
 								<i class="fa fa-truck"></i>
 							</div>
@@ -77,7 +77,7 @@
 				</div>
 				<div class="trust-mark">
 					<div class="center">
-						<a href="">
+						<a href="/customer-service">
 							<div class="image">					
 								<i class="fa fa-envelope"></i>
 							</div>
@@ -91,7 +91,7 @@
 				</div>
 				<div class="trust-mark">
 					<div class="center">
-						<a href="">
+						<a href="/customer-service">
 							<div class="image">					
 								<i class="fa fa-question"></i>
 							</div>

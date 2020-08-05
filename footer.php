@@ -396,7 +396,7 @@ addEvent(form_to_submit, 'submit', form_submit);
 					wp_nav_menu(
 						array(
 							'container' => false,
-							'menu' => 'Main', 
+							'menu' => 'Footer', 
 						) 
 					); 
 					?>
