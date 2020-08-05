@@ -6,13 +6,14 @@
         text-transform:uppercase;
     }
     .faq-item{
+        max-width:1000px;
+        margin:0 auto;
 
         .faq-header{
             font-family:$font-heading;
             font-size:18px;
             cursor:pointer;
             letter-spacing:2px;
-            font-style:italic;
             border-bottom:1px solid colours(mono,grey);
             text-transform:uppercase;
             padding:15px 5% ; 
@@ -29,6 +30,14 @@
             padding:20px 5% ; 
             max-width:1000px; 
             display:none;
+            ul, li{
+                list-style:initial;
+                margin:initial;
+                font-size:16px;
+            }
+            ul{
+                margin-left:20px;
+            }
 
         }
         &.active{

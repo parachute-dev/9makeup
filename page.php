@@ -14,7 +14,7 @@ get_header(); ?>
 
 <?php include (get_stylesheet_directory() . '/toolbar.php'); ?>
 
-<?php if (is_account_page() || $post->ID == 12 || is_cart() || is_checkout() || $post->ID == 1249) { ?>
+<?php if (is_account_page() || $post->ID == 12 || is_cart() || is_checkout() || $post->ID == 1249 || is_single('customer_service')) { ?>
 	<div class="banner-block content-block background-colour-black" style="margin-bottom:2em;">
 		<div class="container-fluid">
 			<div class="row">

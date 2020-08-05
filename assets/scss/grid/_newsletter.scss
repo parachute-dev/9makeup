@@ -13,7 +13,11 @@
         text-transform:uppercase;
         font-size:24px;
         font-family:$font-heading;
-        
+         @media (max-width: $screen-sm-max) {
+text-align:center;
+font-size:24px;
+margin-bottom:10px;
+         }
 
     }
     button{
@@ -30,6 +34,23 @@
     ._form-content{
         display:flex;
         width:100%;
+            @media (max-width: $screen-sm-max) {
+display:block;
+
+input{
+    float:left;
+    width:47%;
+    margin:10px 0;
+}
+input + input{
+    float:right;
+}
+button{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+}
+            }
     }
     ._form-thank-you{
         width:100%;

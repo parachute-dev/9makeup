@@ -1,0 +1,15 @@
+.icon-block {
+  float: left;
+  width: 100%;
+  clear: both; }
+  .icon-block .icon {
+    text-align: center; }
+    .icon-block .icon .image {
+      height: 250px; }
+    .icon-block .icon img {
+      max-width: 200px; }
+    .icon-block .icon a {
+      color: colours(brand, black); }
+    .icon-block .icon .content {
+      padding: 15px 15px;
+      text-align: center; }

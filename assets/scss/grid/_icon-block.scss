@@ -1,0 +1,27 @@
+.icon-block{
+    float:left;
+    width:100%;
+    clear:both;
+
+    .icon{
+        text-align:center;
+        .image{ 
+            height:250px;
+
+        }
+        img{
+            max-width:200px;
+        }
+
+        a{
+            color:colours(brand,black);
+        }
+        h5{
+            line-height:1.2;
+        }
+        .content{
+            padding:15px 15px;
+            text-align:center;
+        }
+    }  
+}

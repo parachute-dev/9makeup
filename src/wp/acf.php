@@ -54,6 +54,17 @@ function my_acf_init() {
             'keywords'          => array( 'Banner' ),
         )); 
     }
+    if( function_exists('acf_register_block') ) {
+        acf_register_block(array(
+            'name'              => 'icon-block',
+            'title'             => __('Icon Block'),
+            'description'       => __('Icon Block'),
+            'render_template'   => '/templates/blocks/icon-block.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-comments',
+            'keywords'          => array( 'Banner' ),
+        )); 
+    }
 
     if( function_exists('acf_register_block') ) {
         acf_register_block(array(
