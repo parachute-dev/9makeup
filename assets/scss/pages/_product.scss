@@ -90,12 +90,21 @@ div.product form.cart {
 		margin-bottom:20px;
 	}
 }
-
+.wishlist a{
+	&:hover{
+		color:#EB476C!important;
+		text-decoration: none; 
+	}
+}
 
 .woocommerce div.product form.cart .button{
-	background:black;
+	background:#EB476C; ;
 	color:white;
 	font-family:$font-body;
+	&:hover{
+		border-color:black;
+		background:black;
+	}
 }
 
 body.woocommerce div.product p.price{

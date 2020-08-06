@@ -1,22 +1,35 @@
 
 
-.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, button
  {
-  background: rgb(232,217,152);
-background: linear-gradient(270deg, rgba(232,217,152,1) 0%, rgba(173,137,62,1) 100%);
 color:white;
 
-
-
-  color:black;
+          
+      background-color:#EB476C; 
+   
+color:white;
+      cursor:pointer;
   font-weight: 500;
-  padding:17px 40px;
+  padding:13px 40px;
 border-radius:0;
   text-transform:uppercase;
   letter-spacing: 0.05em;
   font-size:15px;
   display:inline-block;
+transition:all 0.12s linear;
+border:1px solid transparent;
 
+  background:transparent;
+  color:#EB476C; 
+    border:2px solid #EB476C; 
+&:hover{
+
+  text-decoration:none;
+
+  background:#EB476C;
+  color:#fff;
+    border:2px solid #EB476C; 
+}
 
   letter-spacing:2px;
   font-family:$font-heading;

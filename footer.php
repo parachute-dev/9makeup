@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<header>
-					<h3>Instagram Feed</h3>
+					<h3>Instagram</h3>
 					<ul class="social-media">
 						<li><a href="https://www.instagram.com/9makeup/" target="_blank" class="fa fa-instagram"></a></li>
 						<li><a href="https://www.facebook.com/9makeup/" target="_blank" class="fa fa-facebook"></a></li>

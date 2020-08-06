@@ -4,18 +4,105 @@
     clear:both;
 }
 .category-callout{
-
+overflow:hidden;
+transition:all 0.2s ease-in;
+&:hover{
+    .image{
+    &:after{
+        visibility: visible;
+           opacity:0.8;
+  letter-spacing:5px; 
+    }
+    }
+}
     .image{ 
         height:250px;
+        transition:all 0.2s ease-in;
+position:relative;
+
+        &:after{
+            position:absolute;
+            left:0;
+                    transition:all 0.2s ease-in;
+
+                    visibility: hidden;
+        opacity:0;
+            top:0;
+            width:100%;
+            height:100%;
+            content:"";
+            background:#EB476C; 
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            z-index:10;
+         
+            content:"view now";
+            color:white;
+            letter-spacing:0px; 
+            font-size:1.3em; 
+font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+text-transform:uppercase;
+            ;
+
+
+        }
 
     }
 
     a{
-        color:colours(brand,black);
+        color:black;
+             transition:all 0.2s ease-in;
+        &:hover{
+            text-decoration:none;
+            color:#EB476C; 
+        }
     }
     .content{
         padding:15px 15px;
         text-align:center;
+    }
+
+}
+
+.insta-block, .category-callout .image{
+    position:relative;
+    &:after{
+
+            position:absolute;
+            left:0;
+                    transition:all 0.2s ease-in;
+
+                    visibility: hidden;
+        opacity:0;
+            top:0;
+            width:100%;
+            height:100%;
+            content:"";
+            background:#EB476C; 
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            z-index:10;
+         
+            content:"view now";
+            pointer-events:none;
+            color:white;
+            letter-spacing:0px; 
+            font-size:1.3em; 
+font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+text-transform:uppercase;
+            ;
+
+
+     
+    }
+    &:hover{
+        &:after{
+                    visibility: visible;
+           opacity:0.8;
+  letter-spacing:5px; 
+        }
     }
 
 }

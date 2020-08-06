@@ -19,24 +19,29 @@
 }
 
 .woocommerce-cart-form{
-	width:73%;
+	width:65%;
 	float:left;
 	@media (max-width: $screen-sm-max) {
 		width:100%;
 	}
 }
+.woocommerce ul#shipping_method li{
 
+}
 html .woocommerce .cart-collaterals{
 	float:right;
-	width:25%; 
+	width:30%; 
 	@media (max-width: $screen-sm-max) {
 		width:100%;
 	}
 }
+body .coupon + .button{
+	padding:14px 30px!important;
+}
 
 html .woocommerce .cart-collaterals .cart_totals,  html.woocommerce-page .cart-collaterals .cart_totals{
 	width:100%;
-} 
+}  
 
 .cart_totals  h2{
 	display:none;
@@ -44,7 +49,13 @@ html .woocommerce .cart-collaterals .cart_totals,  html.woocommerce-page .cart-c
 
 
 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order:hover{
-	background:black!important
+	background:#EB476C!important;
+	padding:20px!important;
+	font-size:16px!important;
+	&:hover{
+		background:black!important;
+		border-color:black!important;
+	}
 }
 
 #order_review_heading{
@@ -53,8 +64,10 @@ html .woocommerce .cart-collaterals .cart_totals,  html.woocommerce-page .cart-c
 
 .woocommerce-cart table.cart td.actions .coupon .input-text{
 	min-width:260px;
+	letter-spacing:0;
 
-padding:10px;
+
+padding:10px 20px!important;
 }
 
 .coupon{
@@ -67,36 +80,32 @@ display:flex;
 display:none;
 }
 
-.woocommerce-message{
-margin:20px 0;
-background:black;
+body .woocommerce-message{
+margin-top:20px;
+background:#EB476C; ;
 color:white;
 letter-spacing:1px;
-border-top:0
-}
-
-
-.woocommerce-message{
+border-top:3px solid black;
+ 
 font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
 text-transform:uppercase;
 font-size:1.2em;
 }
- .woocommerce a.button{
+ .woocommerce .button{
 
-background:black;
-color:white;
-font-size:14px;
-padding:10px 20px;
+
+background-color:black!important;
+color:white!important;
+font-size:13px!important;
+padding:10px 30px!important;
 
 }
-.woocommerce-message a.button{
-background:white;
-color:black;
-}
 
-.woocommerce-message::before{
+
+body .woocommerce-message::before{
 font-size:1.6em;
 top:10px;
+color:black;
 left:15px;
 }
 
@@ -108,3 +117,52 @@ max-width:1280px;
 padding-bottom:100px;
 }
 
+.yith-wcwl-icon{
+	transition:all 0.2s ease-in;
+	color:#EB476C; ;
+	&:hover{
+		 
+	}
+}
+
+
+	@media (max-width: $screen-sm-max) {
+
+	.woocommerce-page .woocommerce{
+			padding-top:0;
+		}
+
+		.quantity{
+			select{
+				width:Auto;
+				margin-bottom:0;
+			}
+		}
+	
+.woocommerce-cart{
+#trust-bar{
+	display:none;
+}
+
+	.banner-carousel .image{
+			display:none;
+		}
+		.banner-carousel .content{
+			padding:15px;
+		}
+.container-content{
+	padding:10px;
+}
+
+table.cart td.actions .coupon .input-text{
+	min-width:initial;
+	flex:1;
+}
+}
+}
+
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
+	font-weight:normal;
+	font-family:$font-heading;
+	text-transform:uppercase;
+}

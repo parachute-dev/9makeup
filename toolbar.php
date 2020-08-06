@@ -10,7 +10,7 @@
 						<img src="<?php bloginfo('template_url');?>/assets/img/logo.png" alt="" />
 					</a> 
 				</div>
-				<div class="col-md-7 main-navigation  col-xs-3"> 
+				<div class="col-md-8 main-navigation  col-xs-3"> 
 					<nav id="navmenu">					
 						<?php 
 						wp_nav_menu(
@@ -30,7 +30,7 @@
 						</a>
 					</div>
 				</div> 
-				<div class="col-md-3 my-account col-xs-3"> 
+				<div class="col-md-2 my-account col-xs-3"> 
 					<nav>
 						<ul>
 							<li class="" id="search"><i class="fa fa-search"></i>

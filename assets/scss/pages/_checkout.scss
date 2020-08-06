@@ -34,8 +34,15 @@ display:none!important;
 margin:0 auto;
 padding:20px;
 }
-
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{
+  	width:90%!important;
+  	float:left;
+  }
 @media (max-width:991px){
+
+	  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{
+  	width:100%!important;
+  }
 	.woocommerce-form-coupon-toggle{
 		margin:0 20px;
 	}
@@ -60,5 +67,9 @@ padding:0
 }
 }
 
+#place_order{
+	width:100%;
 
-  
+}
+
+

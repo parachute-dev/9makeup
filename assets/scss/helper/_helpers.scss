@@ -343,3 +343,15 @@ text-align:right;
 text-align:left
 
 }
+
+
+        .trust-mark-container .slick-slide{
+            display: none;
+        }
+        .trust-mark-container .slick-slide:first-child{
+            display: block;
+        }
+        .slick-initialized.trust-mark-container .slick-slide,
+        .slick-initialized.trust-mark-container .slick-slide:first-child{
+            display: block;
+        }

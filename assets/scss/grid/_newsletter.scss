@@ -21,8 +21,14 @@ margin-bottom:10px;
 
     }
     button{
-        background:linear-gradient(270deg, #e8d998 0%, #ad893e 100%)!important;
+        background:#EB476C!important;
+    
+      cursor:pointer;
+      &:hover{
+        background:white!important;
         color:black!important;
+        border-color:white;
+      }
     }
     form{
         display:flex;
