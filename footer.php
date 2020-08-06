@@ -384,7 +384,7 @@ addEvent(form_to_submit, 'submit', form_submit);
 	<div class="logo container">
 		<div class="row">
 			<div class="col-md-12">
-				<img src="<?php bloginfo('template_url');?>/assets/img/logo.png" alt="" />
+				<img style="max-width:250px;" src="<?php bloginfo('template_url');?>/assets/img/logo.png" alt="" />
 			</div>
 		</div>
 	</div>
