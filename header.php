@@ -41,6 +41,14 @@ text-align:left
 .media-text-block .content{
 padding:5em 0;
 }
+.trust-mark-container:not(:first-child) {
+    visibility: hidden;
+}
+
+.trust-mark-container.your-class {
+    visibility: visible;
+}
+
 
 </style>
 	<?php wp_enqueue_script("jquery"); ?>
