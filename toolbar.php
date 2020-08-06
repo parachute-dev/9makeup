@@ -29,14 +29,13 @@
 							<b></b>
 						</a>
 					</div>
-
 				</div> 
 				<div class="col-md-3 my-account col-xs-3"> 
 					<nav>
 						<ul>
 							<li class="" id="search"><i class="fa fa-search"></i>
 								<div class="search-container">
-								<?php echo do_shortcode('[woocommerce_product_search]'); ?>
+									<?php echo do_shortcode('[woocommerce_product_search]'); ?>
 								</div>
 							</li>
 							
@@ -56,54 +55,52 @@
 			</div> 
 		</div>
 	</div>
-<div id="trust-bar">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 trust-mark-container">
-				<div class="trust-mark">
-					<div class="center">
-						<a href="/customer-service">
-							<div class="image">					
-								<i class="fa fa-truck"></i>
-							</div>
-							<div class="content">
-
-	<h6>COVID SECURE DELIVERY</h6>
-								<p> To your door within 48 hours!
-</p>
-							</div>
-						</a>
+	<div id="trust-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 trust-mark-container">
+					<div class="trust-mark">
+						<div class="center">
+							<a href="/customer_service/delivery/">
+								<div class="image">					
+									<i class="fa fa-truck"></i>
+								</div>
+								<div class="content">
+									<h6>COVID SECURE DELIVERY</h6>
+									<p> To your door within 48 hours!
+									</p>
+								</div>
+							</a>
+						</div>
 					</div>
+					<div class="trust-mark">
+						<div class="center">
+							<a href="/customer_service/returns/">
+								<div class="image">					
+									<i class="fa fa-envelope"></i>
+								</div>
+								<div class="content">
+									<h6>Return Policy</h6>
+									<p>Free returns</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="trust-mark">
+						<div class="center">
+							<a href="/customer-service/contact">
+								<div class="image">					
+									<i class="fa fa-question"></i>
+								</div>
+								<div class="content">
+
+									<h6>Need help?</h6>
+									<p>Contact a member of the team</p>
+								</div>
+							</a>
+						</div>
+					</div>								
 				</div>
-				<div class="trust-mark">
-					<div class="center">
-						<a href="/customer-service">
-							<div class="image">					
-								<i class="fa fa-envelope"></i>
-							</div>
-							<div class="content">
-
-								<h6>Return Policy</h6>
-								<p>Free returns</p>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="trust-mark">
-					<div class="center">
-						<a href="/customer-service/contact">
-							<div class="image">					
-								<i class="fa fa-question"></i>
-							</div>
-							<div class="content">
-
-								<h6>Need help?</h6>
-								<p>Contact a member of the team</p>
-							</div>
-						</a>
-					</div>
-				</div>								
 			</div>
 		</div>
 	</div>
-</div>

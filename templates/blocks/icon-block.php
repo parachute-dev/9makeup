@@ -32,7 +32,7 @@ $margin = get_field('margin');
                     $link_url = $link['url'];
                 }
                 ?>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="icon">
                         <a href="<?php echo $link_url; ?>">
                             <img src="<?php echo $image['url']; ?>" alt="">

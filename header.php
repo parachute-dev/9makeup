@@ -48,6 +48,38 @@ padding:5em 0;
 .trust-mark-container.your-class {
     visibility: visible;
 }
+.woocommerce-message{
+margin:20px 0;
+background:black;
+color:white;
+letter-spacing:1px;
+border-top:0
+}
+
+.woocommerce-message{
+font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+text-transform:uppercase;
+font-size:1.2em;
+}
+ .woocommerce a.button{
+
+background:black;
+color:white;
+font-size:14px;
+padding:10px 20px;
+
+}
+.woocommerce-message a.button{
+background:white;
+color:black;
+}
+
+.woocommerce-message::before{
+font-size:1.6em;
+top:10px;
+left:15px;
+}
+
 
 
 </style>
