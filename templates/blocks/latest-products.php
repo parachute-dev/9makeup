@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-12">
             <div class="callout-carousel">
-                <?php echo do_shortcode('[best_selling_products limit="4"]');?>
+                <?php echo do_shortcode('[products ids="299,4993,5333,865" ]');?>
                 </div>
         </div>
     </div>
