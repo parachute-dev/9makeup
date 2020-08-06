@@ -59,7 +59,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 trust-mark-container">
-					<div class="trust-mark">
+					<div class="trust-mark slick-slide">
 						<div class="center">
 							<a href="/customer_service/delivery/">
 								<div class="image">					
@@ -73,7 +73,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="trust-mark">
+					<div class="trust-mark slick-slide">
 						<div class="center">
 							<a href="/customer_service/returns/">
 								<div class="image">					
@@ -86,7 +86,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="trust-mark">
+					<div class="trust-mark slick-slide">
 						<div class="center">
 							<a href="/customer-service/contact">
 								<div class="image">					

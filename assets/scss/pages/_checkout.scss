@@ -6,4 +6,59 @@
 	 .col2-set .col-1, -page .col2-set .col-1,  .col2-set .col-2, -page .col2-set .col-2{
 		width:100%;
 	}
+
+
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+width:50%;
+float:left;
 }
+#order_review{
+float:right;
+width:50%;
+}
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last{
+width:100%;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{
+width:90%;
+}
+
+#trust-bar, .instagram-block, .newsletter-block, .footer-links {
+display:none;
+}
+.main-navigation, .my-account{
+display:none!important;
+}
+.logo{
+margin:0 auto;
+padding:20px;
+}
+
+@media (max-width:991px){
+	.woocommerce-form-coupon-toggle{
+		margin:0 20px;
+	}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{
+width:100%;
+}
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+width:100%;
+padding:20px;
+float:left;
+}
+#order_review{
+float:right;
+width:100%; 
+padding:20px;
+}
+#header{
+padding:0
+}
+}
+#ship-to-different-address, .banner-carousel,#order_review_heading{display:none;
+}
+}
+
+
+  
