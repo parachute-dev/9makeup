@@ -41,13 +41,15 @@ text-align:left
 .media-text-block .content{
 padding:5em 0;
 }
+
 .trust-mark-container:not(:first-child) {
     visibility: hidden;
 }
 
-.trust-mark-container.your-class {
+.slick-initialized..trust-mark-container {
     visibility: visible;
-}
+} 
+
 .woocommerce-message{
 margin:20px 0;
 background:black;
