@@ -77,25 +77,25 @@
 						<div class="center">
 							<a href="/customer_service/returns/">
 								<div class="image">					
-									<i class="fa fa-envelope"></i>
+									<i class="fa fa-money"></i>
 								</div>
 								<div class="content">
-									<h6>Return Policy</h6>
-									<p>Free returns</p>
+									<h6>Free Delivery</h6>
+									<p>Free delivery over AED100</p>
 								</div>
 							</a>
 						</div>
 					</div>
 					<div class="trust-mark slick-slide">
 						<div class="center">
-							<a href="/customer-service/contact">
+							<a href="/customer-service/">
 								<div class="image">					
 									<i class="fa fa-question"></i>
 								</div>
 								<div class="content">
 
 									<h6>Need help?</h6>
-									<p>Contact a member of the team</p>
+									<p>Visit our Customer Service hub</p>
 								</div>
 							</a>
 						</div>

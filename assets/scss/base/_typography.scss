@@ -18,7 +18,7 @@ h1, .h1 {
 
     letter-spacing: 0;
     @media (min-width: $screen-md-min) {
-        @include font-size(68px);
+        @include font-size(54px);
 
     }
 }

@@ -33,7 +33,7 @@ $logo = get_field('logo');
     </div>
 </div>
 </div>
-<div class="testimonial-block content-block">
+<div class="testimonial-block content-block" style="display:none;">
     <div class="container">
         <div class="row">
             <header class="content-header content-header-underline ">
