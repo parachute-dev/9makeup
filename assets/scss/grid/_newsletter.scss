@@ -20,9 +20,14 @@ margin-bottom:10px;
          }
 
     }
-    button{
+
+
+    form{
+        display:flex;
+
+._form-content            button{
         background:#EB476C!important;
-    
+    padding:20px!important;
       cursor:pointer;
       &:hover{
         background:white!important;
@@ -30,8 +35,8 @@ margin-bottom:10px;
         border-color:white;
       }
     }
-    form{
-        display:flex;
+
+
         input,button{
             flex:1;
             margin:5px;
