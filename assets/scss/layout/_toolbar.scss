@@ -31,7 +31,7 @@ body{
   padding:0px 15px;
   background-color:white;
   z-index:100;
-  box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+  box-shadow:0px 0px 3px rgba(0,0,0,0.1);
 
   @media (max-width: $screen-sm-max) {
 
@@ -305,4 +305,30 @@ text-align:right;
 }
 #product-search-form-0 input{
 text-align:right;
+}
+
+.mm-panels, .mm-panel{
+background:#DF2C62!important;
+color:white!important;
+}
+.mm-listitem{
+color:white!important;
+text-transform:uppercase;
+font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+letter-spacing:1px;
+font-size:16px;
+}
+.mm-navbar_sticky{
+border-bottom:0!important;
+background:black!important;
+color:white!important;
+
+text-transform:uppercase;
+font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+font-size:1.4em;
+letter-spacing:5px;
+}
+.mm-btn.mm-btn_prev:before{
+color:white!important;
+border-color:#999;
 }
