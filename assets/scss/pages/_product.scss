@@ -321,6 +321,7 @@ content.woocommerce .onsale, html .woocommerce .onsale, .woocommerce ul.products
 	height:initial;
 	padding:5px 20px; 
 	min-height:initial;
+	margin:0!important;
 	text-transform:uppercase;
 	font-weight:normal;
 	font-family:"ITC Avant Garde Gothic W01 Dm";
@@ -409,7 +410,7 @@ font-size:11px!important;
 }
 	@media (max-width: $screen-sm-max) {
 
-.related .product {
+.products .product {
 box-shadow: 0px 0px 15px rgba(0,0,0,.24);
 padding:15px!important;
 
@@ -473,7 +474,9 @@ body.woocommerce ul.products li.product .button{
 	margin-right:-15px;
 	width:auto;
 }
-
+.woocommerce ul.products li.product .woocommerce-loop-product__title{
+	font-size:13px!important;
+} 
 
 
 }
