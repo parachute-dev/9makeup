@@ -416,10 +416,10 @@ padding:15px!important;
 
 
 }
-.related ul.products li.product{
+.products ul.products li.product{
 	margin-bottom:15px!important;
 }
-.related ul.products li.product .woocommerce-loop-product__title{
+.products ul.products li.product .woocommerce-loop-product__title{
 
 	min-height:90px;
 }
@@ -477,7 +477,9 @@ body.woocommerce ul.products li.product .button{
 .woocommerce ul.products li.product .woocommerce-loop-product__title{
 	font-size:13px!important;
 } 
-
+.woocommerce div.product div.images{
+	margin-bottom:0!important;
+}
 
 }
 
