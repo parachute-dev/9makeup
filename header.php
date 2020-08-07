@@ -20,11 +20,5 @@
 	<meta name="msapplication-TileColor" content="#DF2C62">
 	<meta name="theme-color" content="#DF2C62">
 
-	<style>
-
-
-
-
-	</style>
 	<?php wp_enqueue_script("jquery"); ?>
 	<?php wp_head(); ?>

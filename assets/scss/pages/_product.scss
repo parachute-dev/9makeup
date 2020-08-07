@@ -91,6 +91,7 @@ div.product form.cart {
 	}
 }
 .wishlist a{
+
 	&:hover{
 		color:#EB476C!important;
 		text-decoration: none; 
@@ -98,12 +99,15 @@ div.product form.cart {
 }
 
 .woocommerce div.product form.cart .button{
-	background:#EB476C; ;
+	background:#EB476C!important;
 	color:white;
-	font-family:$font-body;
+	font-family:$font-heading;
+	font-size:18px!important;
+	padding:14px!important;
+
 	&:hover{
 		border-color:black;
-		background:black;
+		background:black!important;
 	}
 }
 
@@ -398,4 +402,34 @@ padding-bottom:0!important;
 .woovr-variation-radio .woovr-variation-name{
 line-height:1.1;
 font-size:11px!important;
+}
+
+.related ul.products li.product .woocommerce-loop-product__title{
+	font-size:14px!important;
+}
+	@media (max-width: $screen-sm-max) {
+
+.related .product {
+box-shadow: 0px 0px 15px rgba(0,0,0,.24);
+padding:15px!important;
+
+
+}
+.related ul.products li.product{
+	margin-bottom:15px!important;
+}
+.related ul.products li.product .woocommerce-loop-product__title{
+
+	min-height:90px;
+}
+
+.woovr-variations{
+	display:block;
+}
+.woovr-variation-name-default{
+	text-align:left;
+	width:100%;
+
+
+}
 }

@@ -166,3 +166,25 @@ table.cart td.actions .coupon .input-text{
 	font-family:$font-heading;
 	text-transform:uppercase;
 }
+
+.products{
+.product{
+text-align:center;
+
+}
+
+.product h2 {
+text-align:left;
+}
+.product span{
+text-align:left;
+}
+
+.add_to_cart_button{
+width:100%;
+}
+
+.woocommerce-loop-product__title{
+min-height:58px;
+}
+}

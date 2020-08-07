@@ -4,9 +4,10 @@
  {
 color:white;
 
-          
-      background-color:#EB476C; 
    
+      background-color:#EB476C; 
+   background: linear-gradient(270deg, rgba(238,79,111,1) 0%, rgba(167,3,93,1) 100%);
+
 color:white;
       cursor:pointer;
   font-weight: 500;
@@ -17,18 +18,18 @@ border-radius:0;
   font-size:15px;
   display:inline-block;
 transition:all 0.12s linear;
-border:1px solid transparent;
+border:1px solid transparent; 
 
-  background:transparent;
-  color:#EB476C; 
+
+  color:#fff!important;
     border:2px solid #EB476C; 
 &:hover{
 
   text-decoration:none;
 
-  background:#EB476C;
+  background:black;
   color:#fff;
-    border:2px solid #EB476C; 
+    border:2px solid white; 
 }
 
   letter-spacing:2px;
