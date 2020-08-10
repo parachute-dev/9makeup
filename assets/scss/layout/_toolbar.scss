@@ -10,7 +10,7 @@ html{
 html{
 }
 body{
-  padding-top:90px; 
+  padding-top:157px; 
   background:white;
   font-family: $font-body, "Arial", "Helvectica" "Times New Roman", serif;
   font-size: 13px;
@@ -44,17 +44,18 @@ padding:15px 15px;
   }
   .logo{
     display:inline-block;
-    text-align:left;
+    padding:30px 0 10px 0;
+    text-align:center;
     margin-bottom:-5px;
+
+      @media (max-width: $screen-sm-max) {
+padding:0;
+      }
     img{
       max-height:45px;
     }
 
   }
-
-  .main-navigation{
-    text-align:left;
-
 
     @media (max-width: $screen-sm-max) {
 
@@ -64,7 +65,13 @@ padding:15px 15px;
         margin-top:-10px;
         margin-bottom:-10px;
       }
-    }
+    } 
+
+  .main-navigation{
+    text-align:left;
+
+
+
     nav{
 
       @media (max-width: $screen-sm-max) {
@@ -76,15 +83,16 @@ padding:15px 15px;
         justify-content: center;
         >li{
           position:relative;
-         font-size:15px; 
-         text-transform:uppercase;
-         font-family:"ITC Avant Garde Gothic W01 Dm";
-         letter-spacing:1.25px; 
-             padding:28px 10px;
+         font-size:18px;  
+
+         font-family:$font-body;
+
+             padding:15px 20px;
          > a{ 
-          color:inherit;
+          color:inherit; 
           display:inline-block;
           padding:5px 10px;
+              font-weight:600;
           transition:all 0.2s ease-in;
           text-decoration:none;
             &:hover{
@@ -122,6 +130,7 @@ padding:15px 15px;
                 transition:all 0.2s ease-in;
             color:black;
             display:inline-block;
+
                         &:hover{
                           text-decoration:none;
       color:#DF2C62; 
@@ -140,24 +149,36 @@ padding:15px 15px;
 
 .my-account{
   display:flex;
-
+justify-content: flex-end;
 
 }
 .my-account nav ul{
   display:flex; 
   width:100%;
-
+align-items: center;
   justify-content: flex-end;
 
-
+a{
+align-items: center;
+  justify-content: center;
+  display: flex;
+      text-decoration: none;
+      text-decoration:none;
+      font-style:none;
+}
+img{
+  vertical-align: top;
+}
   li{
 
+display: flex;
+align-items: center;
+  justify-content: center;
     font-size:14px;
-    font-weight:bold;
+
     cursor:pointer;
-    text-decoration:underline;
     text-align:center;
-    margin-left:30px;
+    margin-left:40px;
     transition:all 0.15s ease-in;
     @media (max-width: $screen-sm-max) {
 
@@ -166,9 +187,16 @@ padding:15px 15px;
     &:hover, a:hover{
       color:#DF2C62; 
     }
+    span{
+margin-left:15px;
+font-size:13px;
+font-weight:600;
+      text-decoration:none;
+    }
     a{
+      text-decoration: none;
+    font-weight:400;
       color:colours(brand,black); 
-      text-transform:uppercase;
     }
     i{
       font-size:20px;
@@ -245,7 +273,7 @@ padding:15px 15px;
 
 .breadcrumbs li a, .breadcrumbs li strong{
   display:inline-block;
-  text-transform:uppercase;
+
 
   color:#aaa;
   font-size:14px;
@@ -271,26 +299,57 @@ padding:15px 15px;
 
 
 
+.product-search-form{
+  position:relative;
 
+  ::-webkit-input-placeholder {
+     color: #333;
+  }
+  :-moz-placeholder { 
+     color: #333;  
+  }
+  ::-moz-placeholder {  
+     color: #333;  
+  }
+  :-ms-input-placeholder {  
+     color: #333;  
+  }
+  &:before{
+    content:"\f002";
+    top:3px;
+    font-size:20px;
+    position:absolute;
+font-family:"FontAwesome";
+
+  }
+  input{
+    padding-left:40px;
+  border:0px;
+  border:1px solid #333;
+  border-left:0;
+  border-right:0;
+  color:#333;
+  font-size:14px;
+  box-shadow:initial;
+  text-align:left!important;
+
+  border-top:0;
+}
+}
 
 .mini-cart{
   position:absolute;
-  top:-10px;
-  right:5px;
+  top:-8px;
+  right:-8px;
   background:black;
-  width:18px;
-  height:18px;
+  width:15px;
+  height:15px;
   color:white;
-  line-height:18px;
-  font-size:11px;
+  line-height:15px;
+  font-size:10px;
   border-radius:50%;
   pointer-events:none;
 } 
-
-
-
-
-
 
 .search-container{
 position:absolute;
@@ -298,14 +357,16 @@ right:0;
 min-width:300px;
 top:57px;
 display:none;
+
 }
 #header .my-account li{
 }
 .product-search-form{
-text-align:right;
+text-align:left;
 }
 #product-search-form-0 input{
-text-align:right;
+text-align:left;
+max-width:300px;
 }
 
 .mm-panels, .mm-panel{
@@ -314,8 +375,8 @@ color:white!important;
 }
 .mm-listitem{
 color:white!important;
-text-transform:uppercase;
-font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+
+font-family:$font-body, "arial", "helvetica", "san-serif";
 letter-spacing:1px;
 font-size:16px;
 }
@@ -324,12 +385,16 @@ border-bottom:0!important;
 background:black!important;
 color:white!important;
 
-text-transform:uppercase;
-font-family:"ITC Avant Garde Gothic W01 Bd", "arial", "helvetica", "san-serif";
+
+font-family:$font-body, "arial", "helvetica", "san-serif";
 font-size:1.4em;
 letter-spacing:5px;
 }
 .mm-btn.mm-btn_prev:before{
 color:white!important;
 border-color:#999;
+}
+
+.mini-cart-container{
+  position: relative;
 }

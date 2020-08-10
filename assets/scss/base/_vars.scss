@@ -56,41 +56,11 @@ $common-variables: (
 }  
 
 
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=4f1ca31f-3fb3-4062-88b0-38d000b581de");
-@font-face{
-  font-family:"ITC Avant Garde Gothic W01 XLt";
-  src:url("../fonts/e2726b32-fedc-4803-806a-a029c705ad22.woff2") format("woff2"),url("../fonts/cc19831d-e4b6-40fa-b009-45b1365dde5d.woff") format("woff");
-}
-@font-face{
-  font-family:"ITC Avant GardeGothicW01XLtObl";
-  src:url("../fonts/a51eafba-4e39-42fc-9979-1c7766574136.woff2") format("woff2"),url("../fonts/a4129a71-13e0-42e5-b6a6-624dd9f55d96.woff") format("woff");
-}
-@font-face{
-  font-family:"ITC Avant Garde Gothic W01 Bk";
-  src:url("../fonts/6f1146c0-9c0b-4949-866d-9affc396531f.woff2") format("woff2"),url("../fonts/2c50f982-bb73-4891-8d0e-587c1136c2e5.woff") format("woff");
-}
-@font-face{
-  font-family:"ITC Avant Garde GothicW01BkObl";
-  src:url("../fonts/abe9daef-72eb-45cc-a93a-7d6285130117.woff2") format("woff2"),url("../fonts/69fdedf5-3ddd-4815-99d0-4f04ec6c5443.woff") format("woff");
-} 
-@font-face{
-  font-family:"ITC Avant Garde Gothic W01 Md";
-  src:url("../fonts/39dda6db-d579-4a2e-b67c-abf7d732b97c.woff2") format("woff2"),url("../fonts/6cf5eb52-bda1-4506-b101-1cb1cb9ac146.woff") format("woff");
-}
-@font-face{
-  font-family:"ITC Avant Garde Gothic W01 Dm";
-  src:url("../fonts/8bfba692-98b4-401d-b187-205f59d508cf.woff2") format("woff2"),url("../fonts/29cf02ec-9cbf-449b-abff-06b4ab9b1cc0.woff") format("woff");
-}
-@font-face{
-  font-family:"ITC Avant Garde Gothic W01 Bd";
-  src:url("../fonts/4cadb55f-822a-4a35-8918-becfc5a866a3.woff2") format("woff2"),url("../fonts/af007af5-dcfa-465a-a278-47ab3eb9a589.woff") format("woff");
-}
-
-$font-heading: "ITC Avant Garde Gothic W01 Bd", "arial","helvetica", "san-serif";
-$font-heading_alt: "Libre Baskerville", "arial","helvetica", "san-serif";
-$font-body: "ITC Avant Garde Gothic W01 Md", "arial","helvetica", "san-serif";
-$font-body_bold: "ITC Avant Garde Gothic W01 Dm", "arial","helvetica", "san-serif";
-$font-body_light: "ITC Avant Garde Gothic W01 Bk", "arial","helvetica", "san-serif";;
+$font-heading: 'Avenir W01', "arial","helvetica", "san-serif";
+$font-heading_alt: 'Avenir W01', "arial","helvetica", "san-serif";
+$font-body: 'Avenir W01', "arial","helvetica", "san-serif";
+$font-body_bold: 'Avenir W01', "arial","helvetica", "san-serif";
+$font-body_light: 'Avenir W01', "arial","helvetica", "san-serif";;
 
 // Social Colors
 // ====================================================================
