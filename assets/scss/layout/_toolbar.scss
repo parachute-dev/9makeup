@@ -35,8 +35,8 @@ body{
 
   @media (max-width: $screen-sm-max) {
 
-padding:15px 15px;
-}
+    padding:15px 15px;
+  }
 
 
   .is-flex{
@@ -48,24 +48,24 @@ padding:15px 15px;
     text-align:center;
     margin-bottom:-5px;
 
-      @media (max-width: $screen-sm-max) {
-padding:0;
-      }
+    @media (max-width: $screen-sm-max) {
+      padding:0;
+    }
     img{
       max-height:45px;
     }
 
   }
 
-    @media (max-width: $screen-sm-max) {
+  @media (max-width: $screen-sm-max) {
 
-      .mobile-menu-container{
-        display:block!important;
-        transform:scale(0.8);
-        margin-top:-10px;
-        margin-bottom:-10px;
-      }
-    } 
+    .mobile-menu-container{
+      display:block!important;
+      transform:scale(0.8);
+      margin-top:-10px;
+      margin-bottom:-10px;
+    }
+  } 
 
   .main-navigation{
     text-align:left;
@@ -81,155 +81,166 @@ padding:0;
       > ul{
         display:flex;
         justify-content: center;
+                position:relative;
         >li{
-          position:relative;
-         font-size:18px;  
+  
+          font-size:18px;  
 
-         font-family:$font-body;
+          font-family:$font-body;
 
-             padding:15px 20px;
-         > a{ 
-          color:inherit; 
-          display:inline-block;
-          padding:5px 10px;
-              font-weight:600;
-          transition:all 0.2s ease-in;
-          text-decoration:none;
-            &:hover{
-      color:#DF2C62; 
-    }
-        }
-        &:hover{
-          ul{
-          display:block;
-                visibility: visible;
-                        top:100%;
+          padding:15px 20px;
 
-      opacity:1;
-      z-index:20;
-        }
-        }
-      }
-      ul{
-      visibility: hidden;
-      opacity:0;
-          transition:all 0.2s ease-in;
-      z-index:-20;
-        position:absolute;
-        left:0;
-        background:white;
-        top:120%;
-        border-top:1px solid #1d1d1b;
-        padding:20px 40px;
-        min-width:400px;
-        box-shadow:0px 15px 15px rgba(0,0,0,0.4);
-        li{
-          a{
-            color:inherit;
-            margin-bottom:5px;
-                transition:all 0.2s ease-in;
-            color:black;
+    
+
+
+
+
+
+
+
+          > a{ 
+            color:inherit; 
             display:inline-block;
+            padding:5px 10px;
+            font-weight:600;
+            transition:all 0.2s ease-in;
+            text-decoration:none;
+            &:hover{
+              color:#DF2C62; 
+            }
+          }
+          &:hover{
+            ul{
+              display:block;
+              visibility: visible;
+              top:100%;
 
-                        &:hover{
-                          text-decoration:none;
-      color:#DF2C62; 
-    }
+              opacity:1;
+              z-index:20;
+            }
           }
         }
-        ;
+        ul{
+          visibility: hidden;
+          opacity:0;
+          transition:all 0.2s ease-in;
+          z-index:-20;
+          width:100%;
+          position:absolute;
+          left:0;
+          background:white;
+          top:120%;
+          border-top:1px solid #1d1d1b;
+          padding:20px 40px;
+          min-width:400px;
+          box-shadow:0px 15px 15px rgba(0,0,0,0.4);
+          li{
+            a{
+              color:inherit;
+              margin-bottom:5px;
+              transition:all 0.2s ease-in;
+              color:black;
+              display:inline-block;
+
+              &:hover{
+                text-decoration:none;
+                color:#DF2C62; 
+              }
+            }
+          }
+          ;
+        }
       }
     }
+
   }
 
-}
 
 
 
+  .my-account{
+    display:flex;
+    justify-content: flex-end;
 
-.my-account{
-  display:flex;
-justify-content: flex-end;
+  }
+  .my-account nav ul{
+    display:flex; 
+    width:100%;
+    align-items: center;
+    justify-content: flex-end;
 
-}
-.my-account nav ul{
-  display:flex; 
-  width:100%;
-align-items: center;
-  justify-content: flex-end;
-
-a{
-align-items: center;
-  justify-content: center;
-  display: flex;
+    a{
+      align-items: center;
+      justify-content: center;
+      display: flex;
       text-decoration: none;
       text-decoration:none;
       font-style:none;
-}
-img{
-  vertical-align: top;
-}
-  li{
-
-display: flex;
-align-items: center;
-  justify-content: center;
-    font-size:14px;
-
-    cursor:pointer;
-    text-align:center;
-    margin-left:40px;
-    transition:all 0.15s ease-in;
-    @media (max-width: $screen-sm-max) {
-
-      margin-left:15px;
     }
-    &:hover, a:hover{
-      color:#DF2C62; 
+    img{
+      vertical-align: top;
     }
-    span{
-margin-left:15px;
-font-size:13px;
-font-weight:600;
-      text-decoration:none;
-    }
-    a{
-      text-decoration: none;
-    font-weight:400;
-      color:colours(brand,black); 
-    }
-    i{
-      font-size:20px;
-    }
+    li{
 
-  } 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:14px;
 
-}
-
-
-@media (max-width: $screen-sm-max) {
-
-  .is-flex{
-    display:flex;
-    .logo{
-      order:2;
+      cursor:pointer;
       text-align:center;
-      img{
-        max-height:35px;
+      margin-left:40px;
+      transition:all 0.15s ease-in;
+      @media (max-width: $screen-sm-max) {
+
+        margin-left:15px;
+      }
+      &:hover, a:hover{
+        color:#DF2C62; 
+      }
+      span{
+        margin-left:15px;
+        font-size:13px;
+        font-weight:600;
+        text-decoration:none;
+      }
+      a{
+        text-decoration: none;
+        font-weight:400;
+        color:colours(brand,black); 
+      }
+      i{
+        font-size:20px;
+      }
+
+    } 
+
+  }
+
+
+  @media (max-width: $screen-sm-max) {
+
+    .is-flex{
+      display:flex;
+      .logo{
+        order:2;
+        text-align:center;
+        img{
+          max-height:35px;
+        }
+      }
+      .my-account{
+        order:3;
       }
     }
-    .my-account{
-      order:3;
-    }
-  }
 
-  .menu-trigger-inner{
-    .label{
-      display:none; 
+    .menu-trigger-inner{
+      .label{
+        display:none; 
+      }
     }
-  }
 
-}
+  }
 
 
 }       
@@ -303,27 +314,27 @@ font-weight:600;
   position:relative;
 
   ::-webkit-input-placeholder {
-     color: #333;
-  }
-  :-moz-placeholder { 
-     color: #333;  
-  }
-  ::-moz-placeholder {  
-     color: #333;  
-  }
-  :-ms-input-placeholder {  
-     color: #333;  
-  }
-  &:before{
-    content:"\f002";
-    top:3px;
-    font-size:20px;
-    position:absolute;
-font-family:"FontAwesome";
+   color: #333;
+ }
+ :-moz-placeholder { 
+   color: #333;  
+ }
+ ::-moz-placeholder {  
+   color: #333;  
+ }
+ :-ms-input-placeholder {  
+   color: #333;  
+ }
+ &:before{
+  content:"\f002";
+  top:3px;
+  font-size:20px;
+  position:absolute;
+  font-family:"FontAwesome";
 
-  }
-  input{
-    padding-left:40px;
+}
+input{
+  padding-left:40px;
   border:0px;
   border:1px solid #333;
   border-left:0;
@@ -352,49 +363,56 @@ font-family:"FontAwesome";
 } 
 
 .search-container{
-position:absolute;
-right:0;
-min-width:300px;
-top:57px;
-display:none;
+  position:absolute;
+  right:0;
+  min-width:300px;
+  top:57px;
+  display:none;
 
 }
 #header .my-account li{
 }
 .product-search-form{
-text-align:left;
+  text-align:left;
 }
 #product-search-form-0 input{
-text-align:left;
-max-width:300px;
+  text-align:left;
+  max-width:300px;
 }
 
 .mm-panels, .mm-panel{
-background:#DF2C62!important;
-color:white!important;
+  background:#DF2C62!important;
+  color:white!important;
 }
 .mm-listitem{
-color:white!important;
+  color:white!important;
 
-font-family:$font-body, "arial", "helvetica", "san-serif";
-letter-spacing:1px;
-font-size:16px;
+  font-family:$font-body, "arial", "helvetica", "san-serif";
+  letter-spacing:1px;
+  font-size:16px;
 }
 .mm-navbar_sticky{
-border-bottom:0!important;
-background:black!important;
-color:white!important;
+  border-bottom:0!important;
+  background:black!important;
+  color:white!important;
 
 
-font-family:$font-body, "arial", "helvetica", "san-serif";
-font-size:1.4em;
-letter-spacing:5px;
+  font-family:$font-body, "arial", "helvetica", "san-serif";
+  font-size:1.4em;
+  letter-spacing:5px;
 }
 .mm-btn.mm-btn_prev:before{
-color:white!important;
-border-color:#999;
+  color:white!important;
+  border-color:#999;
 }
 
 .mini-cart-container{
   position: relative;
+}
+
+
+// Mega Menu
+
+#menu-main{
+
 }
