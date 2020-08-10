@@ -82,6 +82,7 @@ body{
         display:flex;
         justify-content: center;
                 position:relative;
+
         >li{
   
           font-size:18px;  
@@ -94,8 +95,52 @@ body{
 
 
 
+ 
+>.sub-menu{
+  display:flex;
+  padding-top:40px!important;  
+  padding-bottom:40px;
+            border-bottom:1px solid #ccc;
 
+ &:before, &:after{
+                  content:"";
+                  background:white;
+                  right:100%;
+                  width:2000px;
+                  height:100%;
+           border-bottom:1px solid #ccc;
 
+                  top:0;
+                  position:absolute;
+                }
+                &:after{
+                  left:100%;
+                  right:auto;
+                }
+
+  li{
+flex:1; &.image-block{
+        flex:2;
+
+      }
+      &.empty{
+        flex:0;
+        font-size:0;
+      }
+a{
+  font-weight:bold;
+  ul{
+    display:inline-block;
+    li{
+      display:inline-block;
+
+    }
+
+  }
+  }
+}
+
+}
 
 
           > a{ 
@@ -111,7 +156,7 @@ body{
           }
           &:hover{
             ul{
-              display:block;
+              display:flex;
               visibility: visible;
               top:100%;
 
@@ -130,10 +175,10 @@ body{
           left:0;
           background:white;
           top:120%;
-          border-top:1px solid #1d1d1b;
+          border-top:1px solid #ccc;
           padding:20px 40px;
           min-width:400px;
-          box-shadow:0px 15px 15px rgba(0,0,0,0.4);
+
           li{
             a{
               color:inherit;
