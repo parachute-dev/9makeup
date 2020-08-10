@@ -81,66 +81,69 @@ body{
       > ul{
         display:flex;
         justify-content: center;
-                position:relative;
+        position:relative;
 
         >li{
-  
+
           font-size:18px;  
 
           font-family:$font-body;
 
           padding:15px 20px;
 
-    
 
 
 
- 
->.sub-menu{
-  display:flex;
-  padding-top:40px!important;  
-  padding-bottom:40px;
+
+
+          >.sub-menu{
+            display:flex;
+            padding-top:40px!important;  
+            padding-bottom:40px;
             border-bottom:1px solid #ccc;
 
- &:before, &:after{
-                  content:"";
-                  background:white;
-                  right:100%;
-                  width:2000px;
-                  height:100%;
-           border-bottom:1px solid #ccc;
+            &:before, &:after{
+              content:"";
+              background:white;
+              right:100%;
+              width:2000px;
+              height:100%;
+              border-bottom:1px solid #ccc;
 
-                  top:0;
-                  position:absolute;
+              top:0;
+              position:absolute;
+            }
+            &:after{
+              left:100%;
+              right:auto;
+            }
+
+            li{
+              flex:1; &.image-block, .image{
+                flex:2;
+                img{
+                  max-width:100%;
                 }
-                &:after{
-                  left:100%;
-                  right:auto;
+
+              }
+              &.empty{
+                flex:0;
+                font-size:0;
+              }
+              a{
+                font-weight:bold;
+                ul{
+                  display:inline-block;
+                  li{
+                    display:inline-block;
+
+                  }
+
                 }
+              }
+            }
 
-  li{
-flex:1; &.image-block{
-        flex:2;
-
-      }
-      &.empty{
-        flex:0;
-        font-size:0;
-      }
-a{
-  font-weight:bold;
-  ul{
-    display:inline-block;
-    li{
-      display:inline-block;
-
-    }
-
-  }
-  }
-}
-
-}
+          }
 
 
           > a{ 
@@ -156,136 +159,136 @@ a{
           }
           &:hover{
            > ul{
-              display:flex;
-              visibility: visible;
-              top:100%;
+            display:flex;
+            visibility: visible;
+            top:100%;
 
-              opacity:1;
-              z-index:20;
-            }
+            opacity:1;
+            z-index:20;
           }
-        }
-       > li > ul{
-          visibility: hidden;
-          opacity:0;
-          transition:all 0.2s ease-in;
-          z-index:-20;
-          width:100%;
-          position:absolute;
-          left:0;
-          background:white;
-          top:120%;
-          border-top:1px solid #ccc;
-          padding:20px 40px;
-          min-width:400px;
-
-          li{
-            a{
-              color:inherit;
-              margin-bottom:5px;
-              transition:all 0.2s ease-in;
-              color:black;
-              display:inline-block;
-
-              &:hover{
-                text-decoration:none;
-                color:#DF2C62; 
-              }
-            }
-          }
-          ;
         }
       }
+      > li > ul{ 
+        visibility: hidden;
+        opacity:0;
+        transition:all 0.2s ease-in;
+        z-index:-20;
+        width:100%;
+        position:absolute;
+        left:0;
+        background:white;
+        top:120%;
+        border-top:1px solid #ccc;
+        padding:20px 40px;
+        min-width:400px;
+
+        li{
+          a{
+            color:inherit;
+            margin-bottom:5px;
+            transition:all 0.2s ease-in;
+            color:black;
+            display:inline-block;
+
+            &:hover{
+              text-decoration:none;
+              color:#DF2C62; 
+            }
+          }
+        }
+        ;
+      }
     }
-
   }
 
+}
 
 
 
-  .my-account{
-    display:flex;
-    justify-content: flex-end;
 
-  }
-  .my-account nav ul{
-    display:flex; 
-    width:100%;
+.my-account{
+  display:flex;
+  justify-content: flex-end;
+
+}
+.my-account nav ul{
+  display:flex; 
+  width:100%;
+  align-items: center;
+  justify-content: flex-end;
+
+  a{
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    text-decoration:none;
+    font-style:none;
+  }
+  img{
+    vertical-align: top;
+  }
+  li{
 
-    a{
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+
+    cursor:pointer;
+    text-align:center;
+    margin-left:40px;
+    transition:all 0.15s ease-in;
+    @media (max-width: $screen-sm-max) {
+
+      margin-left:15px;
+    }
+    &:hover, a:hover{
+      color:#DF2C62; 
+    }
+    span{
+      margin-left:15px;
+      font-size:13px;
+      font-weight:600;
       text-decoration:none;
-      font-style:none;
     }
-    img{
-      vertical-align: top;
+    a{
+      text-decoration: none;
+      font-weight:400;
+      color:colours(brand,black); 
     }
-    li{
+    i{
+      font-size:20px;
+    }
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size:14px;
+  } 
 
-      cursor:pointer;
+}
+
+
+@media (max-width: $screen-sm-max) {
+
+  .is-flex{
+    display:flex;
+    .logo{
+      order:2;
       text-align:center;
-      margin-left:40px;
-      transition:all 0.15s ease-in;
-      @media (max-width: $screen-sm-max) {
-
-        margin-left:15px;
-      }
-      &:hover, a:hover{
-        color:#DF2C62; 
-      }
-      span{
-        margin-left:15px;
-        font-size:13px;
-        font-weight:600;
-        text-decoration:none;
-      }
-      a{
-        text-decoration: none;
-        font-weight:400;
-        color:colours(brand,black); 
-      }
-      i{
-        font-size:20px;
-      }
-
-    } 
-
-  }
-
-
-  @media (max-width: $screen-sm-max) {
-
-    .is-flex{
-      display:flex;
-      .logo{
-        order:2;
-        text-align:center;
-        img{
-          max-height:35px;
-        }
-      }
-      .my-account{
-        order:3;
+      img{
+        max-height:35px;
       }
     }
-
-    .menu-trigger-inner{
-      .label{
-        display:none; 
-      }
+    .my-account{
+      order:3;
     }
-
   }
+
+  .menu-trigger-inner{
+    .label{
+      display:none; 
+    }
+  }
+
+}
 
 
 }       
@@ -460,4 +463,13 @@ input{
 
 #menu-main{
 
+}
+
+
+
+.menu-image-title-after.menu-image-title{
+padding-left:0;
+margin-top:5px!important;
+display:inline-block;
+width:100%;
 }
