@@ -135,7 +135,7 @@ body.woocommerce div.product p.price{
 
 .woocommerce div.product form.cart div.quantity, .single-product div.product form.cart .variations td, .woovr-variations  {
 	span, label, .woovr-variation-name-default{
-		text-transform:uppercase;
+		
 		font-size:18px;
 		font-weight:normal;
 		padding-bottom:10px;
@@ -176,7 +176,7 @@ body.woocommerce div.product p.price{
 	border-top:1px solid #cdd2dc;
 	border-bottom:1px solid #cdd2dc;
 	padding:10px 0;
-	text-transform:uppercase;
+	
 	color: #9fa3ae;
 	border-bottom:0;
 	font-family:$font-body;
@@ -277,7 +277,7 @@ body.woocommerce ul.products li.product .button{
 .woovr-variation-radio .woovr-variation-name{
 	font-weight:normal;
 	font-family:$font-heading;
-	text-transform:uppercase;
+	
 
 }
 
@@ -322,7 +322,7 @@ content.woocommerce .onsale, html .woocommerce .onsale, .woocommerce ul.products
 	padding:5px 20px; 
 	min-height:initial;
 	margin:0!important;
-	text-transform:uppercase;
+	
 	font-weight:normal;
 	font-family:$font-body;
 }
@@ -345,10 +345,10 @@ opacity:0.7;
 font-size:11px!important;
 padding:3px;
 
-text-transform:uppercase;
+
 color:white!important;
 line-height:1;
-text-transform:uppercaes;
+;
 }
 .woovr-variation {
 position:relative;
@@ -364,10 +364,10 @@ font-size:17px!important;
 
 .woocommerce-cart table.cart th{
 	font-weight:normal;
-	text-transform:uppercase;
+	
 }
 
-.content li{
+.content li{ 
 	list-style:initial;
 }
 

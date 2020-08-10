@@ -7,7 +7,7 @@
 
 .woocommerce-cart table.cart th, .woocommerce table.shop_table tbody:first-child tr:first-child th,  .woocommerce-cart .cart-collaterals .cart_totals tr th, .woocommerce table.shop_table th
 {
-	text-transform:uppercase;
+	
 	font-weight:normal;
 	font-family:$font-heading;;
 	font-size:15px; 
@@ -88,7 +88,7 @@ letter-spacing:1px;
 border-top:3px solid black;
  
 font-family:$font-body, "arial", "helvetica", "san-serif";
-text-transform:uppercase;
+
 font-size:1.2em;
 }
  .woocommerce .button{
@@ -164,7 +164,7 @@ table.cart td.actions .coupon .input-text{
 .woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
 	font-weight:normal;
 	font-family:$font-heading;
-	text-transform:uppercase;
+	
 }
 
 .products{
