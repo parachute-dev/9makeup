@@ -155,7 +155,7 @@ a{
             }
           }
           &:hover{
-            ul{
+           > ul{
               display:flex;
               visibility: visible;
               top:100%;
@@ -165,7 +165,7 @@ a{
             }
           }
         }
-        ul{
+       > li > ul{
           visibility: hidden;
           opacity:0;
           transition:all 0.2s ease-in;
