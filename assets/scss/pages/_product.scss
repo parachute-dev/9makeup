@@ -176,7 +176,7 @@ body.woocommerce div.product p.price{
 	border-top:1px solid #cdd2dc;
 	border-bottom:1px solid #cdd2dc;
 	padding:10px 0;
-	
+	font-weight:bold;
 	color: #9fa3ae;
 	border-bottom:0;
 	font-family:$font-body;
@@ -426,6 +426,7 @@ padding:15px!important;
 
 .woovr-variations{
 	display:block;
+	font-weight:600;
 }
 .woovr-variation-name-default{
 	text-align:left;
